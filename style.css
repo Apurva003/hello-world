@@ -1,4 +1,3 @@
-
 body {
     font-family: 'Open Sans', sans-serif;
     background: #FFF;
@@ -53,7 +52,6 @@ body {
 
 .carousel-caption {
     bottom: 150px !important;
-   
     text-align: left !important;
 }
 
@@ -259,9 +257,11 @@ body {
 .part-work {
     background-color: #3A454D;
 }
+
 .features-work {
     background-color: #3A454D;
 }
+
 .Inner-layer-badge {
     font-size: 14px !important;
     font-family: "Open Sans", sans-serif;
@@ -401,8 +401,9 @@ body {
     background: #4E5A62;
     padding: 0px 8px;
     margin-right: 0.5em;
-    margin-left:15px;
+    margin-left: 15px;
 }
+
 .content-work h2 {
     color: #fff;
     font-size: 2.5em;
@@ -413,52 +414,65 @@ body {
 .we-do {
     text-align: justify;
 }
+
     .we-do h4 {
         font-size: 17px;
         font-weight: bold;
         text-transform: uppercase;
         text-align: center;
     }
+
     .we-do div {
         text-align: center;
     }
+
     .we-do p {
         font-size: 16px;
         text-align: center;
         color: #8D8F92;
     }
-    .contact-info{
-        margin:2em 0px;
-    }
-    .content-stay {
-        margin:0px 0px 4em;
-    }
-    .contact-info h3{
-        text-transform:uppercase;
-    }
-    .contact-info  a {
-        text-decoration:none;
-    }
-    .contact-info  a:hover h3{
-        color:#23B7A4;
-    }
-    .contact-info p.info{
-        padding:8px 0px;
-        font-size: 1.2em;
-        color: #ABADAF;
-        line-height: 28px;
-    }
-    .contact-form{
-        background:#fff;
-        padding: 2em;
-    }
-    .your-name{
-        color:#ABADAF;
-        font-size:1.2em;
-    }
-    .your-name:hover{
+
+.contact-info {
+    margin: 2em 0px;
+}
+
+.content-stay {
+    margin: 0px 0px 4em;
+}
+
+.contact-info h3 {
+    text-transform: uppercase;
+}
+
+.contact-info a {
+    text-decoration: none;
+}
+
+    .contact-info a:hover h3 {
         color: #23B7A4;
     }
+
+.contact-info p.info {
+    padding: 8px 0px;
+    font-size: 1.2em;
+    color: #ABADAF;
+    line-height: 28px;
+}
+
+.contact-form {
+    background: #fff;
+    padding: 2em;
+}
+
+.your-name {
+    color: #ABADAF;
+    font-size: 1.2em;
+}
+
+    .your-name:hover {
+        color: #23B7A4;
+    }
+
     .your-name input[type="text"] {
         width: 100%;
         outline: none;
@@ -468,82 +482,113 @@ body {
         border: none;
         border-radius: 3px;
     }
-    .your-name input[type="text"]:hover{
-        background:#AEE5D6;
+
+        .your-name input[type="text"]:hover {
+            background: #AEE5D6;
+        }
+
+.your-msg:hover {
+    color: #23B7A4;
+}
+
+.your-msg textarea {
+    width: 100%;
+    outline: none;
+    margin: 12px 0px;
+    padding: 14px 8px;
+    background: #E6E9EC;
+    border: none;
+    border-radius: 3px;
+    resize: none;
+}
+
+    .your-msg textarea:hover {
+        background: #AEE5D6;
     }
-    .your-msg:hover{
-        color: #23B7A4;
+
+.your-submit input[type="submit"] {
+    background: #23B7A4;
+    outline: none;
+    font-size: 20px;
+    margin: 16px 0px;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 18px;
+    color: #fff;
+    transition: 0.5s all;
+}
+
+    .your-submit input[type="submit"]:hover {
+        background: #07695C;
     }
-    .your-msg  textarea {
-        width: 100%;
-        outline: none;
-        margin: 12px 0px;
-        padding: 14px 8px;
-        background: #E6E9EC;
-        border: none;
-        border-radius: 3px;
-        resize: none;
-    }
-    .your-msg  textarea:hover{
-        background:#AEE5D6;
-    }
-    .your-submit  input[type="submit"] {
-        background: #23B7A4;
-        outline: none;
-        font-size: 20px;
-        margin: 16px 0px;
-        border: none;
-        border-radius: 6px;
-        padding: 10px 18px;
-        color: #fff;
-        transition: 0.5s all;
-    }
-    .your-submit  input[type="submit"]:hover{
-        background:#07695C;
-    }
-    .your-msg{
-        color:#ABADAF;
-        font-size:1.2em;
-    }
-    .contact-box {
-        position:relative;
-    }
-    .contact-form{
-        position:absolute;
-        right:0;
-        top:-150px;
-    }
-    .map iframe{
-        width:100%;
-        min-height:300px;
-        border:none;
-    }
+
+.your-msg {
+    color: #ABADAF;
+    font-size: 1.2em;
+}
+
+.contact-box {
+    position: relative;
+}
+
+.contact-form {
+    position: absolute;
+    right: 0;
+    top: -150px;
+}
+
+.map iframe {
+    width: 100%;
+    min-height: 300px;
+    border: none;
+}
+
 .features-textarea {
     color: #fff;
 }
-.features-textarea a{
 
-    color:#fff;
-}
-.features-textarea h4 {
+    .features-textarea a {
+        color: #fff;
+    }
+
+    .features-textarea h4 {
         text-transform: uppercase;
         padding: 2em 0px 0.7em;
-        font-size:20px;
-}
+        font-size: 20px;
+    }
 
-.features-textarea p{
-    line-height:24px;
-    font-size:14px;
-}
+    .features-textarea p {
+        line-height: 24px;
+        font-size: 14px;
+    }
+
 .footer-main {
     padding: 4em 0px 5em;
 }
+
 .footer-text {
     float: left;
     color: #fff;
     font-size: 1.2em;
 }
-.footer-social-menu
-{
-    float:right;
+
+.footer-social-menu {
+    float: right;
+    margin-top: -70px;
+    font-size: 20px;
+}
+
+.footer {
+    background-color: #3A454D;
+}
+
+.footer-social-menu ul li {
+    display: inline-block;
+}
+
+.footer-social-menu .fa {
+    width: 32px;
+    height: 36px;
+    display: inline-block;
+    color: #fff;
 }
