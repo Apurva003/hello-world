@@ -259,7 +259,9 @@ body {
 .part-work {
     background-color: #3A454D;
 }
-
+.features-work {
+    background-color: #3A454D;
+}
 .Inner-layer-badge {
     font-size: 14px !important;
     font-family: "Open Sans", sans-serif;
@@ -335,38 +337,6 @@ body {
 
 .slideanim {
     text-align: center;
-}
-
-.features {
-    height: 500px;
-    margin-top: 200px;
-    background-color: grey;
-    padding-left: 50px;
-    color: white;
-}
-
-.feature-header {
-    font-size: 16px;
-    font-family: "QuattrocentoSans";
-    color: rgb(255, 255, 255);
-    font-weight: bold;
-    text-transform: uppercase;
-    line-height: 2.333;
-    left: 377.844px;
-    top: 4257.003px;
-    z-index: 50;
-}
-
-.feature-details {
-    font-size: 14px;
-    font-family: "Open Sans";
-    color: rgb(220, 223, 225);
-    line-height: 1.625;
-    left: 379.078px;
-    top: 4339.289px;
-    width: 351px;
-    height: 95px;
-    z-index: 55;
 }
 
 .footer {
@@ -548,3 +518,32 @@ body {
         min-height:300px;
         border:none;
     }
+.features-textarea {
+    color: #fff;
+}
+.features-textarea a{
+
+    color:#fff;
+}
+.features-textarea h4 {
+        text-transform: uppercase;
+        padding: 2em 0px 0.7em;
+        font-size:20px;
+}
+
+.features-textarea p{
+    line-height:24px;
+    font-size:14px;
+}
+.footer-main {
+    padding: 4em 0px 5em;
+}
+.footer-text {
+    float: left;
+    color: #fff;
+    font-size: 1.2em;
+}
+.footer-social-menu
+{
+    float:right;
+}
